@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Streaming Input TTS Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Streaming Input TTS Demo</h1>
+    </header>
+
+    <section aria-labelledby="en-title">
+      <h2 id="en-title">English</h2>
+      <div class="sample-list">
+        <article class="sample">
+          <div class="sample-meta">
+            <span>Short</span>
+            <small>3-27 words</small>
+          </div>
+          <div class="sample-content">
+            <p>Get the trust fund to the bank early.</p>
+            <div class="comparison" role="group" aria-label="English short sample comparison">
+              <div class="audio-cell">
+                <h3>Prompt voice <span>voice reference only</span></h3>
+                <audio controls preload="metadata" src="assets/audio/prompt/en_short_get_trust_fund_prompt.wav"></audio>
+              </div>
+              <div class="audio-cell">
+                <h3>Our proposed method</h3>
+                <audio controls preload="metadata" src="assets/audio/proposed/en_short_get_trust_fund.wav"></audio>
+              </div>
+              <div class="audio-cell">
+                <h3>Pretrained CosyVoice2</h3>
+                <audio controls preload="metadata" src="assets/audio/pretrained/en_short_get_trust_fund.wav"></audio>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="sample">
+          <div class="sample-meta">
+            <span>Long</span>
+            <small>186-292 words</small>
+          </div>
+          <div class="sample-content">
+            <p>They were also required to maintain minimal service levels. This mandate ensured that essential operations continued smoothly even during challenging circumstances, preventing complete shutdowns that could disrupt people's daily lives. Workers had to carefully balance these requirements with their own needs and limitations, often stretching thin resources to meet expectations. Supervisors regularly monitored performance metrics to verify compliance, though exceptions were sometimes granted for truly unavoidable situations. Customers gradually adapted to these adjusted service standards, understanding that perfection was unrealistic under constrained conditions. Some businesses used this as an opportunity to streamline processes, discovering efficiencies they hadn't noticed during normal operations. Temporary staff often received specialized training focused specifically on maintaining these baseline service requirements when regular employees were unavailable. The policy sparked debates about what truly constituted "minimal" service, with different industries developing their own detailed benchmarks. Unions negotiated specific clauses addressing these requirements in labor contracts, ensuring fair treatment of workers. Over time, organizations developed contingency plans outlining exactly how to maintain these critical operations during various types of disruptions. The approach proved its value when multiple crises hit simultaneously, preventing total collapse of important systems. Surprisingly, many companies found their customer satisfaction scores remained stable despite operating at reduced capacity, showing people valued reliability over extravagance during difficult periods. This realization led some organizations to permanently adopt more modest but consistent service models even after restrictions lifted.</p>
+            <div class="comparison" role="group" aria-label="English long service sample comparison">
+              <div class="audio-cell">
+                <h3>Prompt voice <span>voice reference only</span></h3>
+                <audio controls preload="metadata" src="assets/audio/prompt/en_long_minimal_service_prompt.wav"></audio>
+              </div>
+              <div class="audio-cell">
+                <h3>Our proposed method</h3>
+                <audio controls preload="metadata" src="assets/audio/proposed/en_long_minimal_service.wav"></audio>
+              </div>
+              <div class="audio-cell">
+                <h3>Pretrained CosyVoice2</h3>
+                <audio controls preload="metadata" src="assets/audio/pretrained/en_long_minimal_service.wav"></audio>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="sample">
+          <div class="sample-meta">
+            <span>Long</span>
+            <small>186-292 words</small>
+          </div>
+          <div class="sample-content">
+            <p>It is operated by the New York City Department of Parks and Recreation, the agency responsible for maintaining over 1,700 parks, playgrounds, and recreational facilities across the five boroughs. This vast network includes famous landmarks like Central Park and Prospect Park, as well as countless neighborhood green spaces that serve local communities. The department employs thousands of workers who handle everything from landscaping and maintenance to programming cultural events and educational activities. Established in 1870, it has grown to become one of the most comprehensive municipal park systems in the world, managing more than 30,000 acres of public land. Many New Yorkers rely on these public spaces for exercise, relaxation, and social connection in the densely populated city. The department also oversees beaches, pools, nature centers, and historic sites, offering residents diverse recreational opportunities throughout the year. Funding comes from the city budget along with private donations through partnerships with conservancy groups. Seasonal workers join the full-time staff during summer months when park usage peaks. From planting trees to organizing free concerts, the department plays a vital role in enhancing urban life and environmental sustainability. Its operations reflect New York City's commitment to providing accessible green spaces for all residents regardless of neighborhood or income level. The staff work year-round to ensure these public areas remain clean, safe, and welcoming for millions of visitors.</p>
+            <div class="comparison" role="group" aria-label="English long parks sample comparison">
+              <div class="audio-cell">
+                <h3>Prompt voice <span>voice reference only</span></h3>
+                <audio controls preload="metadata" src="assets/audio/prompt/en_long_nyc_parks_prompt.wav"></audio>
+              </div>
+              <div class="audio-cell">
+                <h3>Our proposed method</h3>
+                <audio controls preload="metadata" src="assets/audio/proposed/en_long_nyc_parks.wav"></audio>
+              </div>
+              <div class="audio-cell">
+                <h3>Pretrained CosyVoice2</h3>
+                <audio controls preload="metadata" src="assets/audio/pretrained/en_long_nyc_parks.wav"></audio>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="zh-title">
+      <h2 id="zh-title">中文</h2>
+      <div class="sample-list">
+        <article class="sample">
+          <div class="sample-meta">
+            <span>短句</span>
+            <small>11-31 chars</small>
+          </div>
+          <div class="sample-content">
+            <p>炎炎夏日赏冰雕邯郸永年，广府古城冰雕馆开放。</p>
+            <div class="comparison" role="group" aria-label="Chinese short sample comparison">
+              <div class="audio-cell">
+                <h3>Prompt voice <span>voice reference only</span></h3>
+                <audio controls preload="metadata" src="assets/audio/prompt/zh_short_ice_sculpture_prompt.wav"></audio>
+              </div>
+              <div class="audio-cell">
+                <h3>Our proposed method</h3>
+                <audio controls preload="metadata" src="assets/audio/proposed/zh_short_ice_sculpture.wav"></audio>
+              </div>
+              <div class="audio-cell">
+                <h3>Pretrained CosyVoice2</h3>
+                <audio controls preload="metadata" src="assets/audio/pretrained/zh_short_ice_sculpture.wav"></audio>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="sample">
+          <div class="sample-meta">
+            <span>长句</span>
+            <small>433-667 chars</small>
+          </div>
+          <div class="sample-content">
+            <p>自动驾驶将大幅提升出行安全，效率。想象一下清晨上班时，所有车辆都按照最优路线自动行驶，不再有抢道加塞的惊险场面，也不会因为疲劳驾驶导致事故发生。这些智能汽车通过激光雷达和摄像头实时感知周围环境，反应速度比人类快十倍以上，能在0.1秒内完成紧急制动。城市交通将变得像精密运转的钟表，每辆车都保持安全距离匀速前进，红绿灯的等待时间缩短一半。老年人可以轻松预约自动驾驶出租车去医院，再也不用担心子女不在身边时的出行问题。送货机器人会沿着专用车道穿梭于大街小巷，既避免了快递小哥闯红灯的危险，又能24小时不间断配送。随着5G网络的全面覆盖，车辆之间还能实时共享路况信息，提前避开拥堵路段。这种智能交通系统不仅能减少90%以上的交通事故，还能让城市道路的通行效率提升三倍，我们终于可以告别堵车时漫长的等待和找停车位的烦恼。更重要的是，自动驾驶技术将彻底改变我们的生活方式。清晨醒来，智能汽车已经根据你的日程自动预热好车厢温度；下班路上，你可以安心在车里处理工作或小憩片刻，不必再紧盯路况。学校周边的道路会变得更加安全，孩子们上下学都有自动驾驶校车全程护航。节假日出游时，车队会自动编组行驶，既节省燃油又提升高速公路的通行能力。偏远山区的居民也能享受到便捷的出行服务，自动驾驶车辆可以轻松应对复杂地形。这项技术还将带动新能源产业的发展，电动自动驾驶汽车的普及将大幅减少尾气排放，让城市的空气质量得到明显改善。未来，我们或许会看到整个城市交通系统都由人工智能统一调度，实现真正意义上的智慧出行。</p>
+            <div class="comparison" role="group" aria-label="Chinese long autonomous driving sample comparison">
+              <div class="audio-cell">
+                <h3>Prompt voice <span>voice reference only</span></h3>
+                <audio controls preload="metadata" src="assets/audio/prompt/zh_long_autonomous_driving_prompt.wav"></audio>
+              </div>
+              <div class="audio-cell">
+                <h3>Our proposed method</h3>
+                <audio controls preload="metadata" src="assets/audio/proposed/zh_long_autonomous_driving.wav"></audio>
+              </div>
+              <div class="audio-cell">
+                <h3>Pretrained CosyVoice2</h3>
+                <audio controls preload="metadata" src="assets/audio/pretrained/zh_long_autonomous_driving.wav"></audio>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="sample">
+          <div class="sample-meta">
+            <span>长句</span>
+            <small>433-667 chars</small>
+          </div>
+          <div class="sample-content">
+            <p>共同建设面向未来的交通，和出行服务新生态。这不仅需要政府部门的顶层设计和政策支持，更需要企业、科研机构和广大市民的共同参与。想象一下，未来的城市街道上，自动驾驶车辆与共享单车和谐共处，智能交通信号系统根据实时车流自动调节，5G网络覆盖下的出行服务平台能为你规划最优路线。这种新型交通生态将大幅提升出行效率，减少碳排放，让城市更宜居。我们正在见证从传统交通向智慧出行的历史性转变，这需要持续投入技术创新，比如新能源车的普及、车路协同系统的完善，以及大数据在交通管理中的深度应用。每个人都可以为这个未来贡献力量，无论是选择绿色出行方式，还是积极参与智慧交通的测试与反馈。让我们携手共建这个更安全、更便捷、更环保的出行新时代，让科技真正服务于人民的美好生活。未来的交通系统还将深度融合人工智能技术，通过深度学习算法预测出行需求，动态调配各类交通工具资源。在社区层面，微型交通枢纽将实现"最后一公里"的无缝衔接，老人和孩子也能轻松使用适老化设计的共享代步工具。随着区块链技术的应用，出行数据的安全性和隐私保护将得到更好保障，用户可以通过统一的数字身份享受跨平台服务。这种新型生态还将催生许多创新业态，比如移动办公舱、智能快递配送网络等，让出行服务真正融入生活的方方面面。我们期待看到更多跨界合作，让交通不再只是简单的位移工具，而成为连接人与城市、人与服务的智能纽带。</p>
+            <div class="comparison" role="group" aria-label="Chinese long future transport sample comparison">
+              <div class="audio-cell">
+                <h3>Prompt voice <span>voice reference only</span></h3>
+                <audio controls preload="metadata" src="assets/audio/prompt/zh_long_future_transport_prompt.wav"></audio>
+              </div>
+              <div class="audio-cell">
+                <h3>Our proposed method</h3>
+                <audio controls preload="metadata" src="assets/audio/proposed/zh_long_future_transport.wav"></audio>
+              </div>
+              <div class="audio-cell">
+                <h3>Pretrained CosyVoice2</h3>
+                <audio controls preload="metadata" src="assets/audio/pretrained/zh_long_future_transport.wav"></audio>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
